@@ -1,33 +1,51 @@
-<!-- Contact -->
-<div class="mb4">
-  <h4 class="f3 b lh-title mb3 tc">Drop us a line below</h4>
+<div class="container">
+  <h2 class="text text-center">Contact | Request Quote</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <!-- <label for="name">{{ .labels.name }}</label> -->
+        <input type="text"
+          class="form-control" name="" id="" aria-describedby="helpId" placeholder="{{ .labels.name }}">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+      </div>
 
-  <form action="">
-    <div class="flex-l mhn1-l">
-      <!-- Name -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="text" id="name" name="name" placeholder="Name" class="w-100 mb2">
-          <label for="name">Name</label>
-        </fieldset>
+      <div class="form-group">
+        <!-- <label for="name">{{ .labels.phoneNumber }}</label> -->
+        <input type="text"
+          class="form-control" name="phoneNumber" id="" aria-describedby="helpId" placeholder="{{ .labels.phoneNumber }}">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
       </div>
-      <!-- Email -->
-      <div class="ph1-l w-50-l">
-        <fieldset>
-          <input type="email" id="email" name="email" placeholder="Email" class="w-100 mb2">
-          <label for="email">Email</label>
-        </fieldset>
+
+      <div class="form-group">
+        <!-- <label for="name">{{ .labels.email }}</label> -->
+        <input type="text"
+          class="form-control" name="email" id="" aria-describedby="helpId" placeholder="{{ .labels.email }}">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
       </div>
+
+      <div class="form-group">
+        <!-- <label for="name">{{ .labels.businessName }}</label> -->
+        <input type="text"
+          class="form-control" name="businessName" id="" aria-describedby="helpId" placeholder="{{.labels.businessName}}">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+      </div>
+
     </div>
 
-    <!-- Message -->
-    <fieldset>
-      <textarea id="message" name="message" placeholder="Your message" rows="8" cols="80" class="w-100"></textarea>
-      <label for="message">Your message</label>
-    </fieldset>
-    <!-- Button -->
-    <div class="tc">
-      <button type="submit" class="btn w-100 w-auto-ns raise">Submit</button>
+    <div class="col-sm-6">
+
+      <div class="form-group">
+        <!-- <label for="name">{{ .labels.object }}</label> -->
+        <input type="text"
+          class="form-control" name="object" id="" aria-describedby="helpId" placeholder="{{ .labels.object }}" value="Request a quote!">
+        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+      </div>
+
+      <div class="form-group">
+        <!-- <label for="">Message</label> -->
+        <textarea class="form-control" name="message" id="" rows="5" placeholder="{{ .labels.object }}"></textarea>
+      </div>
+
     </div>
-  </form>
+  </div>
 </div>
