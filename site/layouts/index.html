@@ -2,6 +2,14 @@
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
 
+{{ partial "about" . }}
+
+{{ partial "services" . }}
+
+{{ partial "request-quote-message" . }}
+
+{{ partial "our-work" . }}
+
 {{ partial "contact-form" .Params.contact }}
 
 {{ end }}

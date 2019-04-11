@@ -1,0 +1,70 @@
+/*! BOGITAL | https://bogital.com */
+
+/*
+ *
+ *     
+ *         _______________________
+ *        /  ___/\_  ___/\_  ___/
+ *        / /__   (__  )  (__  )
+ *        \___/  /____/   / ___/
+ *
+ *    TABLE OF CONTENTS
+ *
+ *    1. External Library Includes
+ *       - Reset.css | http://meyerweb.com/eric/tools/css/reset/
+ *    2. Tachyons Modules
+ *    3. Variables
+ *       - Media Queries
+ *       - Colors
+ *    4. Debugging
+ *       - Debug all
+ *       - Debug children
+ *
+ */
+
+ /******************************
+*SERVICES
+********************************/
+#services img {
+    margin: 32px auto 16px;
+  }
+  
+  #services img.last {
+    /* height: 124.25%; */
+    width: auto;
+  }
+  .service-grid:first-child {
+    margin-top: 32px;
+  }
+  
+  .service-grid {
+    margin-top: 64px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .service-grid {
+      margin-top: 32px;
+    }
+  }
+
+ /* OUR WORK */
+
+ #our-work {
+     height: 320px;
+     background-color: lightblue;
+     overflow-x: scroll;
+     overflow-y: hidden;
+ }
+
+ #our-work::-webkit-scrollbar {
+   scroll-behavior: auto;
+ }
+
+.scrolling-wrapper {
+  white-space: nowrap;
+  height: 300px;
+}
+
+.card-block {
+  min-height: 220px;
+}

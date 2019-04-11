@@ -1,0 +1,10 @@
+<section class=" container-fluid" id="our-work">
+    <div class="row flex-row flex-nowrap">
+        {{ range .Params.work }}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 card-block">
+                <h3>{{ .title }}</h3>
+                <p>{{ .excerpt }}</p>
+            </div>
+        {{ end }}
+    </div>
+</section>
