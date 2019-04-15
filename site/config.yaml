@@ -1,0 +1,22 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Homepage"
+
+DefaultContentLanguage: en
+copyright: Everything is mine
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    params:
+      logoURL: /img/logo.svg
+    title: My blog
+    weight: 1
+  fr:
+    contentDir: content/fr
+    languageName: Français
+    params:
+      logoURL: /img/logo.svg
+      navigation:
+        help: Aide
+    title: Mon blogue

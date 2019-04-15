@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: Bogital Cameroun
+subtitle: Déveloper vos sites webs et internet chez Bogital
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
