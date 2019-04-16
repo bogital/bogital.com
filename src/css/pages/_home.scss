@@ -96,30 +96,16 @@
   }
 }
 
- /******************************
+/******************************
 *SERVICES
 ********************************/
-#services img {
-    margin: 32px auto 16px;
+#services {
+  background-color: $primary;
+  img {
+    max-width: 100%;
   }
-  
-  #services img.last {
-    /* height: 124.25%; */
-    width: auto;
-  }
-  .service-grid:first-child {
-    margin-top: 32px;
-  }
-  
-  .service-grid {
-    margin-top: 64px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .service-grid {
-      margin-top: 32px;
-    }
-  }
+}
+
 
  /* OUR WORK */
 
