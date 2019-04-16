@@ -40,5 +40,51 @@ contact:
         businessName: Business Name
         object: Object
         message: Message
+faq:
+  - title: What is Manage Booking?
+    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
+                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
+                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
+                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
+                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
+                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
+                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
+                  nderit.
+  - title: What is a presentation website?
+    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
+                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
+                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
+                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
+                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
+                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
+                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
+                  nderit.
+  - title: Who can use Manage Booking?
+    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
+                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
+                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
+                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
+                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
+                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
+                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
+                  nderit.
+  - title: Can multiple Debit / Credit cards be used on Manage Booking?
+    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
+                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
+                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
+                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
+                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
+                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
+                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
+                  nderit.
+  - title: Which bookings can I use to access the Manage Booking facility?
+    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
+                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
+                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
+                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
+                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
+                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
+                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
+                  nderit.
 ---
 

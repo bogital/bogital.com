@@ -1,0 +1,57 @@
+.faq-content #accordion .panel-title > a.accordion-toggle::before, .faq-content #accordion a[data-toggle="collapse"]::before  {
+	content:"−";
+	float: left;
+	font-family: 'Glyphicons Halflings';
+	margin-right: 1em;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	display:inline-block;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	
+	border-radius:50%;
+	text-align:center;
+	font-size:10px;
+	background:#ADD8E6;
+}
+.faq-content #accordion .panel-title > a.accordion-toggle.collapsed::before, .faq-content  #accordion a.collapsed[data-toggle="collapse"]::before  {
+    content:"+";
+	color:#fff;
+	font-size:10px;
+	font-weight:300;
+	background:#333;
+}
+
+.faq-content #accordion .panel-title {
+	font-size: 16px;
+	height:42px;
+	line-height:42px;
+	color: #333;
+}
+
+.faq-content{float:left; width:100%;}
+.faq-content .panel-heading{padding-left:0; border-radius:0 !important;}
+.faq-content .panel-heading a{
+	text-decoration:none;
+	display: block;
+	color: #333;
+}
+.faq-content .panel{border-radius:0 !important;}
+.faq-content .panel-default{ background-color: inherit }
+.faq-content .panel-heading{background:#f3f3f3 !important; color:#666666;}
+.faq-content .panel-body{
+	font-size:14px; 
+	color:#666666;
+	margin-left: 44px;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+.faq-saelect{background:#f3f3f3; padding:15px; border-bottom:2px solid #666666; float:left; width:100%; margin-bottom:20px; margin-top:-10px;}
+.faq-saelect span{font-size:16px; color:#333; margin-right:20px;}
+.faq-saelect select{border:1px solid #dcdcdc; color:#999999; width:300px; height:40px;}
+.faq-content .panel{border-top:none !important; border-right:none !important; border-left:none !important;}
+.faq-content .panel-body{border:1px solid #f3f3f3;}

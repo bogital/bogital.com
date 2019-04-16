@@ -1,0 +1,42 @@
+<!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container inner-container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="heading text-center">FAQ</h1>
+            <div class="about-page-content testimonial-page">
+                <div class="faq-content">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        
+                        {{ range $index, $val := .Params.faq }}
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" 
+                                        data-toggle="collapse"
+                                        href="#faq-{{$index}}"
+                                        aria-expanded="false" aria-controls="collapse-{{$index}}"
+                                        >
+                                            <span>{{ $val.title }}</span>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="faq-{{$index}}" class="panel-collapse collapse" data-parent="#accordion"
+                                 role="tabpanel" aria-labelledby="heading-{{$index}}">
+                                    <div class="panel-body">
+                                        {{ $val.description }}
+                                    </div>
+                                </div>
+                            </div>
+                        {{ end }}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
