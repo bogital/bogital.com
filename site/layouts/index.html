@@ -12,4 +12,11 @@
 
 {{ partial "faq" . }}
 
+<ul>
+  {{ range .Site.Data.team.array }}
+  <li>{{.name}}</li>
+  {{ end }}
+</ul>
+  
+
 {{ end }}

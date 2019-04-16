@@ -42,9 +42,6 @@ work:
     - image: /img/home-jumbotron.jpg
       title: "Project 1"
       excerpt: "This is a responsive website project"
-    - image: /img/home-jumbotron.jpg
-      title: "Project 1"
-      excerpt: "This is a responsive website project"
 contact:
     labels:
         name: Name

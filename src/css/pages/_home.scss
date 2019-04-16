@@ -24,6 +24,18 @@
 
  $primary: #66cccc !default;
 
+ section, .bo-section {
+   padding-top: 32px;
+   padding-bottom: 32px;
+ }
+
+ @media (min-width: 768px) {
+  section, .bo-section {
+   padding-top: 64px;
+   padding-bottom: 64px;
+ }
+}
+
 /******************************
 *     HEADER
 ********************************/
