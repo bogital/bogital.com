@@ -1,6 +1,6 @@
 ---
 title: Bogital Cameroon
-subtitle: Develop your websites and mobile applications with bogital
+subtitle: Websites and mobile applications development
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
@@ -36,8 +36,9 @@ contact:
     labels:
         name: Name
         email: Email
-        phoneNumber: Phone Number
+        phone: Phone
         businessName: Business Name
+        service: Select Service
         object: Object
         message: Message
 faq:

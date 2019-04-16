@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "form" .Params.contact) }}
 
 {{ partial "about" . }}
 
@@ -9,8 +9,6 @@
 {{ partial "request-quote-message" . }}
 
 {{ partial "our-work" . }}
-
-{{ partial "contact-form" .Params.contact }}
 
 {{ partial "faq" . }}
 

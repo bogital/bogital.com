@@ -1,55 +1,34 @@
 <div class="container">
-  <h2 class="text text-center">Contact | Request Quote</h2>
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="form-group">
-        <!-- <label for="name">{{ .labels.name }}</label> -->
-        <input type="text"
-          class="form-control" name="" id="" aria-describedby="helpId" placeholder="{{ .labels.name }}">
-        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
+
+  <form action="" class="bo-contact-form">
+    <h2 class="text text-center">Contact | Request Quote</h2>
+      <div class="form-row">
+        <div class="col-12">
+          <div class="form-group">
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="{{ .labels.name }}">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="phone" id="" aria-describedby="helpId"
+              placeholder="{{ .labels.phone }}">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="email" id="" aria-describedby="helpId"
+              placeholder="{{ .labels.email }}">
+          </div>
+          <div class="form-group">
+            <select class="form-control" name="service" id="" aria-placeholder="{{.labels.service}}" >
+              <option>{{.labels.service}}</option>
+              <option>Web design</option>
+              <option>Mobile Aplication</option>
+              <option>Wordpress</option>
+              <option>SEO</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" id="" rows="5" placeholder="{{ .labels.message }}"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block btn-primary">Submit</button>
+        </div>
       </div>
-
-      <div class="form-group">
-        <!-- <label for="name">{{ .labels.phoneNumber }}</label> -->
-        <input type="text"
-          class="form-control" name="phoneNumber" id="" aria-describedby="helpId" placeholder="{{ .labels.phoneNumber }}">
-        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
-      </div>
-
-      <div class="form-group">
-        <!-- <label for="name">{{ .labels.email }}</label> -->
-        <input type="text"
-          class="form-control" name="email" id="" aria-describedby="helpId" placeholder="{{ .labels.email }}">
-        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
-      </div>
-
-      <div class="form-group">
-        <!-- <label for="name">{{ .labels.businessName }}</label> -->
-        <input type="text"
-          class="form-control" name="businessName" id="" aria-describedby="helpId" placeholder="{{.labels.businessName}}">
-        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
-      </div>
-
-    </div>
-
-    <div class="col-sm-6">
-
-      <div class="form-group">
-        <!-- <label for="name">{{ .labels.object }}</label> -->
-        <input type="text"
-          class="form-control" name="object" id="" aria-describedby="helpId" placeholder="{{ .labels.object }}" value="Request a quote!">
-        <!-- <small id="helpId" class="form-text text-muted">Help text</small> -->
-      </div>
-
-      <div class="form-group">
-        <!-- <label for="">Message</label> -->
-        <textarea class="form-control" name="message" id="" rows="3" placeholder="{{ .labels.message }}"></textarea>
-      </div>
-
-      <div class="form-group">
-          <button type="button" name="" id="" class="btn btn-primary d-block float-right">Send</button>
-      </div>
-
-    </div>
-  </div>
+  </form>
 </div>

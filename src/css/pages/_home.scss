@@ -22,6 +22,80 @@
  *
  */
 
+ $primary: #66cccc !default;
+
+/******************************
+*     HEADER
+********************************/
+.bo-header {
+  height: 720px;
+  padding: 32px 0;
+}
+
+.bo-contact-form {
+  max-width: 420px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 32px 16px;
+
+  h2 {
+    margin: 0 auto 16px;
+    color: white;
+  }
+
+  .form-group {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    .form-control {
+      background-color: inherit;
+      color: white;
+      outline-color: $primary;
+      
+      font-size: 18px;
+      font-family: "Open Sans";
+      line-height: 1.2;
+      text-align: left;
+
+    }
+
+    select.form-control {
+      cursor: pointer;
+    }
+
+    option {
+      background-color: $primary;
+      font-size: 16px;
+      font-family: "Open Sans";
+      color: rgb(255, 255, 255);
+      padding: 0px 2px 2px;
+    }
+
+  }
+
+
+}
+
+/******************************
+*     ABOUT
+********************************/
+#about {
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+  }
+}
+
  /******************************
 *SERVICES
 ********************************/
