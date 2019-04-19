@@ -17,16 +17,16 @@ values:
     heading: Our values
     text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
 services:
-  - imageURL: /img/responsive_web_design.png
+  - imageURL: /img/fa-html5.svg
     title: Responsive Web Design
     description: Your page scales up or down depending if you view your website on a small smartphone, tablet or desktop combuter. This will contribute greatly in enhancing user experience and SEO.
-  - imageURL: /img/responsive_web_design.png
+  - imageURL: /img/fa-mobile-phone.svg
     title: Mobile Application development
     description: We use top notch no...... technologies to develop mordern mobile applications accross ios and android
-  - imageURL: /img/wordpress-logo.png
+  - imageURL: /img/fa-wordpress.svg
     title: Wordpress Development
     description: We develop custom wordpress websites and themes. Wordpress is the go to solution that we use in yneka when it comes to developing a blog Like our blog.
-  - imageURL: /img/SEO-logo.png
+  - imageURL: /img/fa-globe.svg
     title: SEO
     description: We build SEO frendly websites scoring atleast 99.99% on page test. This will help rank Your website on search engines like google and bing.
 work:
@@ -52,7 +52,7 @@ contact:
         object: Object
         message: Message
 faq:
-  - title: What is Manage Booking?
+  - title: How much wil it cost me?
     description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
                   neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
                   reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
@@ -61,7 +61,7 @@ faq:
                   velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
                   bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
                   nderit.
-  - title: What is a presentation website?
+  - title: What are your payment terms?
     description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
                   neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
                   reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
