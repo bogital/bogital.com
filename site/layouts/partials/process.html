@@ -1,0 +1,22 @@
+<div id="process">
+  <div class="container">
+    <h2 class="text-center pt-2">Process</h2>
+    <div class="row">
+      {{ range $index, $v :=.Params.process }}
+      <div class="col-sm-6 col-lg-4 mt-4">
+        <div class="row">
+          <div class="col-2">
+            <h1 class="bo-process-number-label">{{ add $index 1  }}</h1>
+          </div>
+          <div class="col-10">
+            <h3>{{$v.title}}</h3>
+            <p>
+              {{$v.description}}
+            </p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>

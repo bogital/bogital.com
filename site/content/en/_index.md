@@ -51,6 +51,19 @@ contact:
         service: Select Service
         object: Object
         message: Message
+process:
+  - title: Project Analysis
+    description:  The first step of every project. We will analyse your project to choose the best technology stack to work with. This will often take a maximun of 3 days.
+  - title: Prototyping
+    description: After analysing the project, we will produce a prototype of the project that will be validated by the client before we go futher. Prototyping can take up to two weeks to complete.
+  - title: Coding
+    description: Our favorite part, At this point, we will code your website/application to life. This part could take up to two weeks depending on the size of the project.
+  - title: Content Creation
+    description: At this point, we will create SEO ready content for your website/application. Here we will need all the documentation the client can provide to us.
+  - title: Quality Check
+    description: This is a critical step of our work. The whole project is thouroughly reviewed before deployment.
+  - title: Deployment
+    description: Horraay. Your project is now available to the public.
 faq:
   - title: How much wil it cost me?
     description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis

@@ -10,13 +10,9 @@
 
 {{ partial "our-work" . }}
 
-{{ partial "faq" . }}
+{{ partial "process" . }}
 
-<ul>
-  {{ range .Site.Data.team.array }}
-  <li>{{.name}}</li>
-  {{ end }}
-</ul>
+{{ partial "faq" . }}
   
 
 {{ end }}
