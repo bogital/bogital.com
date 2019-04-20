@@ -3,7 +3,9 @@ languageCode: "en-us"
 title: "Homepage"
 
 DefaultContentLanguage: en
-copyright: Everything is mine
+copyright: BOGITAL
+enableRobotsTXT: true
+
 languages:
   en:
     contentDir: content/en
