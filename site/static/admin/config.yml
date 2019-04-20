@@ -1,6 +1,8 @@
 backend:
   # name: test-repo
-  name: git-gateway
+  # name: git-gateway
+  name: github
+  repo: bogital/bogital.com
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
