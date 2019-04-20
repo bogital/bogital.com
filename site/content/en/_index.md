@@ -1,6 +1,10 @@
 ---
-title: Bogital Cameroon
+title: Build your website and, android and ios mobile applications in Cameroon.
 subtitle: Websites and mobile applications development
+head:
+  meta:
+    - name: description
+      content: Bogital | Build your websites and mobile applications in Cameroon with bogital
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
