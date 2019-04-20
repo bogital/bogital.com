@@ -1,5 +1,5 @@
 ---
-title: Web design, android and ios mobile applications development in Cameroon.
+title: Web and mobile development in Cameroon.
 subtitle: Websites and mobile applications development
 head:
   title: Web design, android and ios mobile applications development in Cameroon.
