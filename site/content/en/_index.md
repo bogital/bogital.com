@@ -1,7 +1,8 @@
 ---
-title: Build your website and, android and ios mobile applications in Cameroon.
+title: Web design, android and ios mobile applications development in Cameroon.
 subtitle: Websites and mobile applications development
 head:
+  title: Web design, android and ios mobile applications development in Cameroon.
   meta:
     - name: description
       content: Bogital | Build your websites and mobile applications in Cameroon with bogital
