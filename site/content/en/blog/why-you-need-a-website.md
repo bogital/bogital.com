@@ -4,6 +4,7 @@ date: 2019-01-04T15:04:10.000Z
 description: >-
   Discover 10 reasons why you will you need a professional website in Cameroon
 image: /img/home-jumbotron.jpg
+sitemap: false
 inspiration: https://jessicahainesdesign.com/blog/you-need-a-website
 ---
 

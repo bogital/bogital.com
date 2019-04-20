@@ -4,6 +4,7 @@ date: 2019-01-04T15:04:10.000Z
 description: >-
   Découvrer 10 raisons pour lesquelles vous avez besoin d'un siteweb.
 #image: /img/home-jumbotron.jpg
+sitemap: false
 inspiration: https://jessicahainesdesign.com/blog/you-need-a-website
 slug: pourquoi-siteweb
 ---

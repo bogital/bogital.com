@@ -1,5 +1,6 @@
 ---
 title: Dévelopement de site internet et applications mobile android et ios au Cameroun.
+sitemap: false
 subtitle: Websites and mobile applications development
 image: /img/home-jumbotron.jpg
 intro:

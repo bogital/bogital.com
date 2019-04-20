@@ -22,3 +22,10 @@ languages:
       navigation:
         help: Aide
     title: Mon blogue
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false
+    changefreq: weekly
+    filename: sitemap.xml
+    priority: 0.5
