@@ -1,54 +1,33 @@
-<footer class="bg-black ph3 pv4 white">
-
-	<div class="mw7 center pt3">
-
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+<footer id="footer">
+	<div class="container">
+			<div class="row">
+				<ul class="col-12 bo-footer-main">
+					<li class="bo-1">
+						<img src="/img/logo.svg" alt="Bogital logo"
+							class=" offset-xs-2 offset-sm-3 offset-md-4 col-xs-8 col-sm-6 col-md-4 ">
+					</li>
+					<li class="bo-1">
+						<p>Simbock - yaounde - Cameroon</p>
+					</li>
+					<li class="bo-1">
+						<p>+237696835158</p>
+					</li>
 				</ul>
 			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
+			<div class="row">
+				<div class="col-12">
+					<ul class="bo-social">
+						{{ partial "social-icon" (dict "link" "///fb.me/bogital237" "src" "/img/icons-facebook.svg" "id" "facebook") }}
+					</ul>
+				</div>
 			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="text-center">Copyright &copy; 2019</div>
 		</div>
 	</div>
-
 </footer>
-
-{{ partial "svg" . }}
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

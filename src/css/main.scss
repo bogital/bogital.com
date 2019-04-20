@@ -110,3 +110,39 @@
 // /* Debugging */
 // @import './imports/_debug-children';
 // @import './imports/_debug-grid';
+
+
+/******************************
+*     FOOTER
+********************************/
+#footer {
+  ul {
+    list-style-type: none;
+    li.bo-1 {
+      p, img {
+        margin-bottom: 0.25em;
+        text-align: center;
+      }
+    }
+  }
+
+  ul.bo-social {
+    list-style: none;
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .bo-social-link:hover {
+    #facebook {
+      fill: blue;
+    }
+  }
+
+  .bo-social-svg {
+    height: 56px;
+    width: auto;
+    border-radius: 28px;
+    margin: 0 0.5em 0.25em;
+  }
+}
