@@ -1,7 +1,7 @@
 <head>
 	
-	<meta name="title" content="Web design and mobile applications development in Cameroon">
-	<title>Web design and mobile applications development in Cameroon</title>
+	<meta name="title" content="{{.Params.title}}">
+	<title>{{.Params.title}}</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="/css/main.css" />
 
@@ -17,17 +17,21 @@
 	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16"> -->
 	<link rel="manifest" href="/manifest.json">
 	<!-- <link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400"> -->
-	<meta name="theme-color" content="#fff">
+	<meta name="theme-color" content="#66CCCC">
 
 	<!-- Open Graph -->
-	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Web design, android and ios mobile applications development in Cameroon.">
-	<meta property="og:url" content="/">
-	<meta property="og:image" content="/img/home-jumbotron.jpg">
+	{{ if .Params.head.og }}
+		{{ range .Params.head.og }}
+			<meta property="og:{{.property}}" content="{{.content}}">
+		{{ end }}
+	{{ end }}
 
-	<meta name="description" content="Design a profesional business or personal website, mobile application with bogital">
-	<meta name="keywords" content="web design, android developer cameroon, web master cameroon, web design company">
-	
-	<link rel="canonical" href="http://bogita.com" />
+	{{ if .Params.head.meta }}
+		{{ range .Params.head.meta }}
+			<meta name="{{.name}}" content="{{.content}}">
+		{{ end }}
+	{{ end }}
+
+	<link rel="canonical" href="http://bogital.com" />
 
 </head>

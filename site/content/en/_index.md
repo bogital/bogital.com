@@ -1,15 +1,28 @@
 ---
-title: Web and mobile development in Cameroon.
-subtitle: Websites and mobile applications development
+title: Web design and mobile applications development in Cameroon
+subtitle:
 head:
   title: Web design, android and ios mobile applications development in Cameroon.
   meta:
     - name: description
-      content: Bogital | Build your websites and mobile applications in Cameroon with bogital
+      content: Design a profesional business or personal website, mobile application with bogital
+    - name: keywords
+      content: web design, android developer cameroon, web master cameroon, web design company
+  og:
+    - property: type
+      content: business.business
+    - property: title
+      content: Web design, android and ios mobile applications development in Cameroon.
+    - property: url
+      content: /
+    - property: image
+      content: /img/logo.svg
+  
 image: /img/home-jumbotron.jpg
 blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    heading: About Bogital
+    text: Founded in 2017, Bogital is a software development startup developing websites and mobile applications in Cameroon. We aim at improving the presence of Camerounian businesses in ther internet with our services.
+    imageURL: /img/logo.svg
 services:
   - imageURL: /img/fa-html5.svg
     title: Responsive Web Design

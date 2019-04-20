@@ -1,14 +1,10 @@
 <section class="container" id="about">
     <div class="row">
         <div class="col-sm-8 offset-sm-2">
-            <img src="/img/logo.svg" alt="Bogital logo" class=" offset-xs-2 offset-sm-3 col-xs-8 col-sm-6 mb-4">
+            <img src="{{ .Params.blurb.imageURL }}" alt="Bogital logo" class=" offset-xs-2 offset-sm-3 col-xs-8 col-sm-6 mb-4">
             <p>
-                Founded in 2017, Bogital is a software development startup developing websites and mobile applications in Cameroon. We
-                aim at improving the presence of Camerounian businesses in ther internet with our services.
+                {{ .Params.blurb.text }}
             </p>
         </div>
-        <!-- <div class="col-sm-4 content-center d-flex justify-content-center align-items-center">
-            <img src="/img/logo.svg" alt="BOGITAL logo" class="m-2" style="max-width: 100%">
-        </div> -->
     </div>
 </section>
