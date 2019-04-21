@@ -9,12 +9,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="{{ .Lang }}"
-                href="{{ .Permalink }}"
+                href="https://www.bogital.com{{ .Permalink }}"
                 />{{ end }}
     <xhtml:link
                 rel="alternate"
                 hreflang="{{ .Lang }}"
-                href="{{ .Permalink }}"
+                href="https://www.bogital.com{{ .Permalink }}"
                 />{{ end }}
   </url>
   {{ end }}
