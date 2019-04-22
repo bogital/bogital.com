@@ -1,0 +1,12 @@
+.bo-post-hero {
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.bo-post-content {
+  margin-top: 2em;
+
+}

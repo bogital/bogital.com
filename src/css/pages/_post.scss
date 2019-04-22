@@ -1,0 +1,28 @@
+.bo-post-hero {
+  height: 360px;
+  
+
+  .backdrop {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(245, 245, 245, 0.2);
+  }
+}
+
+.bo-post-content {
+  padding-top: 1em;
+
+  >p:first-child::first-letter {
+    padding-left: 1em;
+    font-size: 24px;
+  }
+
+}

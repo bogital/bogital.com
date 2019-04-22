@@ -1,15 +1,26 @@
 {{ define "main" }}
-
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
+  <div
+    class="jumbotron-fluid bo-post-hero" 
+    {{ if .Params.image }} style="background-image: url('{{ .Params.image }}')" {{ end }}
+    >
+    <div class="backdrop">
+      <h1 class="text-center">{{.Title}}</h1>
     </div>
   </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-2 col-md-8 d-flex">
+        <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+        <p class="pl-2 pr-2"> | </p>
+        <p><i>Read in {{ .ReadingTime }} minutes</i></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="offset-md-2 col-md-8 bo-post-content">
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+
 {{ end }}
