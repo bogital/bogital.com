@@ -7,6 +7,7 @@ image: /img/home-jumbotron.jpg
 sitemap: false
 keywords: web design, why create a website in cameroon, web design, websites for startups
 inspiration: https://jessicahainesdesign.com/blog/you-need-a-website
+slug: why-you-need-a-website-for-your-startup-in-cameroon
 ---
 
 Do you know that everyday, 6 million of people get connected to the internet in Cameroon.

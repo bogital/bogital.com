@@ -1,19 +1,31 @@
+.bo-blog-li {
+  height: 240px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+  a[role="button"] {
+    align-self: flex-start;
+    margin-top: auto;
+  }
+}
+
+
+
 .bo-post-hero {
   height: 360px;
   
 
   .backdrop {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     left: 0;
     right: 0;
     bottom: 0;
     top: 0;
     background-color: rgba(245, 245, 245, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
