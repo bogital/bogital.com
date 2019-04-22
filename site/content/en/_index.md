@@ -72,36 +72,15 @@ process:
   - title: Deployment
     description: Horraay. Your project is now available to the public.
 faq:
-  - title: How much wil it cost me?
-    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
-                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
-                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
-                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
-                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
-                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
-                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
-                  nderit.
-  - title: What are the payment terms at Bogital?
-    description: Generally, we espect our clients to initially buy thier domain names and private emails then advance 20 thousand Francs, then pay half of the discount after the web design is valided then pay the rest when the project is completed.
+  - title: How much will it cost me?
+    description: The cost depends on many factors. These factors may include; the number of pages, technologies used in the backend, hosting, private emails, design complexity, client skills etc... Write to us directly from our rapid contact form or call us (696835158) directly.
+  - title: What are the payment terms at Bogital Cameroon?
+    description: We expect our clients to buy their domain names and email plus 20 000 FCFA before we start designing.  You will pay half of the amount remaining when the web design will be validated. Then complete the payment after project completion.
+  - title: How long will the project take to complete?
+    description: The duration of a website design or application development depends on the complexity of the project. In general, if you have a deadline, we will work hard to complete before that.
   - title: What if I don't love the design?
-    description: If you don't love our design, we will work with you to produce a website you will love.
-  - title: Can multiple Debit / Credit cards be used on Manage Booking?
-    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
-                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
-                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
-                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
-                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
-                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
-                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
-                  nderit.
-  - title: Which bookings can I use to access the Manage Booking facility?
-    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
-                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
-                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
-                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
-                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
-                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
-                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
-                  nderit.
+    description: At Bogital, a project is completed only when the client is satisfied. If you don't love our web design prototype, we will work with you to improve the design until satisfaction.
+  - title: How to update my website?
+    description: We provide a personalised content manager for all the web sites we develop at Bogital Cameroon.  This content manager provides a simple interface to update the content of your website.  In addition, we build Wordpress websites which are very easy to customise.
 ---
 

@@ -18,7 +18,9 @@
 				</ul>
 				<div class="col-6">
 					<h2>Blog</h2>
-					<a href="/blog/why-you-need-a-website-for-your-startup-in-cameroon/">Why create a website for your startup in Cameroon</a>
+					{{ range .Data.Pages }}
+						<a  href="{{.Permalink}}">{{ .Title }}</a> <br />
+					{{ end }}
 				</div>
 			</div>
 			<div class="row">
