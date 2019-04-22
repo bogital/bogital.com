@@ -2,7 +2,7 @@
   height: 240px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 
-  a[role="button"] {
+  [role="button"] {
     align-self: flex-start;
     margin-top: auto;
   }
@@ -13,24 +13,22 @@
 .bo-post-hero {
   height: 360px;
   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  .backdrop {
-    position: absolute;
-
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    background-color: rgba(245, 245, 245, 0.2);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 .bo-post-content {
   padding-top: 1em;
+
+  p {
+    color: #1c1e29;
+    font-weight: 400;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    line-height: 2rem;
+  }
 
   >p:first-child::first-letter {
     padding-left: 1em;

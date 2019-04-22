@@ -81,24 +81,10 @@ faq:
                   velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
                   bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
                   nderit.
-  - title: What are your payment terms?
-    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
-                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
-                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
-                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
-                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
-                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
-                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
-                  nderit.
-  - title: Who can use Manage Booking?
-    description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
-                  neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
-                  reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque, bibendum in
-                  sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe nderit. Lorem
-                  ipsum dolor sit amet, consectetur adipis neque,varius tellus eget massa. Quis autem
-                  velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis neque,
-                  bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure reprehe
-                  nderit.
+  - title: What are the payment terms at Bogital?
+    description: Generally, we espect our clients to initially buy thier domain names and private emails then advance 20 thousand Francs, then pay half of the discount after the web design is valided then pay the rest when the project is completed.
+  - title: What if I don't love the design?
+    description: If you don't love our design, we will work with you to produce a website you will love.
   - title: Can multiple Debit / Credit cards be used on Manage Booking?
     description: Quis autem velum iure reprehe nderit. Lorem ipsum dolor sit amet, consectetur adipis
                   neque, bibendum in sagittis. Duis varius tellus eget massa. Quis autem velum iure
