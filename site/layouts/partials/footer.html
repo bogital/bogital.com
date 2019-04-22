@@ -16,12 +16,14 @@
 						{{ partial "social-icon" (dict "link" "///fb.me/bogital237" "src" "/img/icons-facebook.svg" "id" "facebook") }}
 					</ul>
 				</ul>
+				{{ if .Data.Pages }}
 				<div class="col-6">
 					<h2>Blog</h2>
 					{{ range .Data.Pages }}
 						<a  href="{{.Permalink}}">{{ .Title }}</a> <br />
 					{{ end }}
 				</div>
+				{{ end }}
 			</div>
 			<div class="row">
 				<div class="col-12">
