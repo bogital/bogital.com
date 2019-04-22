@@ -1,13 +1,8 @@
 ---
 title: Why will you need a website for your startup in Cameroon
-date: 2019-01-04T15:04:10.000Z
-description: >-
-  Discover 10 reasons why you will you need a professional website in Cameroon
+date: 2019-04-22T15:04:10.000Z
+description: Discover 10 reasons why you will you need a professional website in Cameroon
 image: /img/home-jumbotron.jpg
-sitemap: false
-keywords: web design, why create a website in cameroon, web design, websites for startups
-inspiration: https://jessicahainesdesign.com/blog/you-need-a-website
-slug: why-you-need-a-website-for-your-startup-in-cameroon
 ---
 
 Do you know that 6 million people connect to the internet every day in Cameroon? With the rise of the so-called “Android Generation”, faster internet speeds and powerful smartphone; it is necessary to have a professionally designed website or at least a Facebook page in Cameroon.
