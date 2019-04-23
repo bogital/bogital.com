@@ -1,6 +1,6 @@
 ---
 title: Web design and mobile applications development in Cameroon
-subtitle:
+subtitle: Promotion! One year free hosting up to May 1st 2019!!! 
 head:
   title: Web design, android and ios mobile applications development in Cameroon.
   meta:
@@ -18,6 +18,7 @@ head:
     - property: image
       content: /img/logo.svg
 call: Whatsapp
+promo: One year free hosting up to May 1st 2019!!! 
 image: /img/home-jumbotron.jpg
 blurb:
     heading: About Bogital
