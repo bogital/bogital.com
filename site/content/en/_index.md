@@ -50,14 +50,15 @@ work:
       title: "Project 1"
       excerpt: "This is a responsive website project"
 contact:
-    labels:
-        name: Name
-        email: Email
-        phone: Phone
-        businessName: Business Name
-        service: Select Service
-        object: Object
-        message: Message
+  labels:
+    title: Contact | Request a quote
+    name: Name
+    email: Email
+    phone: Phone
+    businessName: Business Name
+    service: Select Service
+    object: Object
+    message: Message
 process:
   - title: Project Analysis
     description:  This is where we will decide which technology sack to use for your web design or mobile application project.  Project analysis can take up to 3 days.

@@ -1,0 +1,3 @@
+readingTime:
+  one: "Lire en une minute"
+  other: "Lire en {{ .Count }} minutes."

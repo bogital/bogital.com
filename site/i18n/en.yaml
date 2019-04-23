@@ -1,0 +1,3 @@
+readingTime:
+  one: "Read in one minute"
+  other: Read in {{ .Count }} minutes.

@@ -8,13 +8,14 @@
     </div>
   </div>
 
+
   <div class="container">
     <div class="row">
       <div class="offset-md-2 col-md-8 d-flex">
         <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
         <p class="pl-2 pr-2"> | </p>
-        <p><i>Read in {{ .ReadingTime }} minutes</i></p>
-      </div>
+        <p><i>{{ i18n "readingTime" .ReadingTime }}</i></p>
+      </div> 
     </div>
     <div class="row">
       <div class="offset-md-2 col-md-8 bo-post-content">

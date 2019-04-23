@@ -50,14 +50,15 @@ work:
       title: "Project 1"
       excerpt: "This is a responsive website project"
 contact:
-    labels:
-        name: Name
-        email: Email
-        phone: Phone
-        businessName: Business Name
-        service: Select Service
-        object: Object
-        message: Message
+  labels:
+    title: Contact | Demander un devis
+    name: Noms
+    email: Email
+    phone: Téléphone
+    businessName: Nom de l'entreprise
+    service: Choisir un Service
+    object: Objet
+    message: Message
 process:
   - title: Analyse du projet
     description:  C’est là que nous déciderons de la technologie à utiliser pour votre projet de conception Web ou d’application mobile. Analyse du projet peut prendre jusqu'à 3 jours.

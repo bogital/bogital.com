@@ -14,6 +14,9 @@ languages:
       logoURL: /img/logo.svg
     title: My blog
     weight: 1
+    labels:
+      form: Contact | Request Quote
+      readIn: Read in
     menu:
       main:
         - identifier: home
@@ -36,7 +39,7 @@ languages:
     menu:
       main:
         - identifier: home
-          name: Home
+          name: Accueil
           url: /fr
           weight: -110
         - name: Blog
