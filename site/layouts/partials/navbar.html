@@ -17,9 +17,13 @@
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavId">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="/blog">Blog<span class="sr-only">(current)</span></a>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+      <li class='nav-item {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}'>
+        <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}<span class="sr-only">(current)</span></a>
       </li>
+      {{ end }}
+      
 
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -29,10 +33,19 @@
         </div>
       </li> -->
     </ul>
-    <ul class="my-2 my-lg-0">
-      <a href="///fb.me/bogital237" target="_blank" class="bo-social-link">
-        <img src="/img/icons-facebook.svg" alt="facebook logo" class="img rounded-circle" id="facebook">
-      </a>
+    <ul class="my-2 my-lg-0 list-unstyled navbar-nav">
+      <li class="nav-item">
+        <a href="///fb.me/bogital237" target="_blank" class="bo-social-link">
+          <img src="/img/icons-facebook.svg" alt="facebook logo" class="img rounded-circle" id="facebook">
+        </a>
+      </li>
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <li class="list-item">
+          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+        </li>
+        {{ end}}
+      {{ end }}
     </ul>
   </div>
 </nav>

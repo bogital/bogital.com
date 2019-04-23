@@ -7,7 +7,7 @@ image: /img/website_construction.jpg
 
 Do you know that 6 million people connect to the internet every day in Cameroon? With the rise of the so-called “Android Generation”, faster internet speeds and powerful smartphone; it is necessary to have a professionally designed website or at least a Facebook page in Cameroon.
 
-Most businesses in Africa and Cameroon,  don't have an online presence. Some of these startups don't even plan of creating a website nor a Facebook page. Below, you will find five reasons why you should create your website for your startup or local business.
+Most businesses in Africa and Cameroon,  don't have an online presence. Some of these startups don't even plan of creating a website nor a Facebook page. Below, you will find five reasons why you should create your website for your startup or a local business in Cameroon.
 
 ### Increased credibility of your business.
 In Cameroon, many people are victims of scams on social media like Facebook. BUT  If you have a Facebook page for your startup, then you are a step ahead of the competition. Remember that Facebook is free(not really!), so anyone can log in to create a new page in 5mins.

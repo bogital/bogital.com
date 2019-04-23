@@ -69,8 +69,8 @@ process:
     description: À ce stade, nous créerons du contenu pour votre site Web / votre application. Ici, nous aurons besoin de toute la documentation que le client peut nous fournir.
   - title: Contrôle de qualité
     description: Ici, votre site Web ou votre application mobile fait l’objet d’un examen approfondi. Après la phase de contrôle de la qualité, votre projet sera prêt pour la production.
-  - title: Deployment
-    description: Horraay. Your project is now available to the public.
+  - title: Déploiement
+    description: Horraah. Votre projet est maintenant disponible au public.
 faq:
   - title: Combien ça va me coûter?
     description: Le coût dépend de nombreux facteurs. Ces facteurs peuvent inclure; le nombre de pages, les technologies utilisées dans le backend, l'hébergement, les emails privés, la complexité du projet etc. Écrivez-nous à partir de notre formulaire de contact rapide ou appelez-nous directement au (696835158).

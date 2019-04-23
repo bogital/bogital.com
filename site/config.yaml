@@ -14,6 +14,17 @@ languages:
       logoURL: /img/logo.svg
     title: My blog
     weight: 1
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -110
+        - name: Blog
+          # post: <span class='alert'>New!</span>
+          # pre: <i class='fa fa-road'></i>
+          url: /blog
+          weight: -100
   fr:
     contentDir: content/fr
     languageName: Français
@@ -22,6 +33,17 @@ languages:
       navigation:
         help: Aide
     title: Mon blogue
+    menu:
+      main:
+        - identifier: home
+          name: Home
+          url: /fr
+          weight: -110
+        - name: Blog
+          # post: <span class='alert'>New!</span>
+          # pre: <i class='fa fa-road'></i>
+          url: /fr/blog
+          weight: -100
 sitemap:
     path: sitemap.xml
     tag: false
