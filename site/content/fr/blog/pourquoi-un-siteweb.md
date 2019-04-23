@@ -2,10 +2,10 @@
 title: 5 bonnes raisons pour créer un site web pour votre petite entreprises au Cameroun
 date: 2019-04-22T15:04:10.000Z
 description: >-
-  Découvrer 10 raisons pour lesquelles vous avez besoin d'un siteweb.
+  Découvrer 10 raisons pour lesquelles vous avez besoin d'un site internet au Cameroun.
 image: /img/website_construction.jpg
 sitemap: false
-slug: pourquoi-siteweb
+slug: pourquoi-avez-vous-besoin-dun-internet-au-cameroun
 ---
 
 Savez-vous que 6 millions de personnes se connectent à Internet chaque jour au Cameroun? 
