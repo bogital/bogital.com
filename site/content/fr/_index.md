@@ -17,7 +17,7 @@ head:
       content: /
     - property: image
       content: /img/logo.svg
-  
+call: Whatsapp
 image: /img/home-jumbotron.jpg
 blurb:
     heading: About Bogital

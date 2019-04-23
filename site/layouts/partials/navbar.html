@@ -42,7 +42,7 @@
 }
 </style>
 
-<nav class="navbar navbar-expand-sm nav bg-white fixed-top" id="navbar">
+<nav class="navbar navbar-expand-sm navbar-light bg-light bg-white" id="navbar">
   <a class="navbar-brand bo-navbar-logo" href="/">
     <img src="/img/logo.svg" alt="Bogital Log" title="Home page" />
   </a>
@@ -58,7 +58,11 @@
         <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}<span class="sr-only">(current)</span></a>
       </li>
       {{ end }}
-      
+      <li class="nav-item">
+        <a href="tel:+237696835158" class="nav-link">
+          {{ .Params.call }} +237-696-835-158
+        </a>
+      </li>
 
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
