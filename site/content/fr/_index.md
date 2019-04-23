@@ -12,7 +12,7 @@ head:
     - property: type
       content: business.business
     - property: title
-      content: Web design, android and ios mobile applications development in Cameroon.
+      content: Web design, Dévelopement de site internet et applications mobile android et ios au Cameroun.
     - property: url
       content: /
     - property: image
