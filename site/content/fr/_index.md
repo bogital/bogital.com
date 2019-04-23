@@ -1,6 +1,6 @@
 ---
 title: Dévelopement de site internet et applications mobile android et ios au Cameroun.
-subtitle: Promotion! Un ans d'hébergement gratuit pour tout sites Internet jusqu'au premier Mai 2019.
+subtitle: Promotion! Un an d'hébergement gratuit pour tout sites Internet jusqu'au premier Mai 2019.
 head:
   title: Web design, android and ios mobile applications development in Cameroon.
   meta:
@@ -19,7 +19,6 @@ head:
       content: /img/logo.svg
 call: Whatsapp
 image: /img/home-jumbotron.jpg
-promo: Un ans d'hébergement gratuit pour tout sites Internet jusqu'au premier Mai.
 blurb:
     heading: About Bogital
     text: Fondée en 2017, Bogital est une startup du développement logiciel qui développe des sites web et des applications mobiles au Cameroun. Nous avons l'objectif d'améliorer la présence des entreprises camerounaises sur internet avec nos services.
