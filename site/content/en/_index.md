@@ -1,6 +1,6 @@
 ---
 title: Web design and mobile applications development in Cameroon
-subtitle: Promotion! One year free hosting up to May 1st 2019!!! 
+subtitle: Promotion! Two years free hosting for all your websites created at Bogital Cameroon up to May 1st 2019!!! 
 head:
   title: Web design, android and ios mobile applications development in Cameroon.
   meta:
