@@ -1,6 +1,6 @@
 ---
 title: Développement de site internet et applications mobile android et ios au Cameroun.
-subtitle: Promotion! Deux ans d’hébergements gratuits pour tous vos sites internet crée chez Bogital Cameroun jusqu'au premier Mai 2019.
+subtitle: 
 head:
   title: Web design, android and ios mobile applications development in Cameroon.
   meta:
