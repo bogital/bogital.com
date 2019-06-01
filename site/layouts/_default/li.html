@@ -1,9 +1,15 @@
-<div href="{{ .Permalink }}" class="w-100 mt-2 d-flex flex-column bo-blog-li">
-	<h2 class="">{{ .Title }}</h2>
-	<p class="">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p class="">{{ .Description }}</p>
-	<a 
-		role="button" 
-		href="{{ .Permalink }}"
-		class="btn btn-primary">Read more →</a>
+<div class="row">
+	<div class="col-md-7">
+		<a href="#">
+			<img class="img-fluid rounded mb-3 mb-md-0" src="{{ .Params.image }}" alt="">
+		</a>
+	</div>
+	<div class="col-md-5">
+		<h3>{{ .Title }}</h3>
+		<p class="">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+		<p class="">{{ .Description }}</p>
+		<a class="btn btn-primary" href="{{ .Permalink }}" href="#">Read more →</a>
+	</div>
 </div>
+
+<hr />
