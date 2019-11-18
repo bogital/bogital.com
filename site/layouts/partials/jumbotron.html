@@ -1,8 +1,10 @@
-<div class="jumbotron jumbotron-fluid cover bo-header" style="background-image: url('{{.imageUrl}}')">
-  <div class="h-100">
-    <div class="container-fluid row h-100">
-      <div class="col-sm-5 col-md-6 d-flex flex-column justify-content-center align-items-center">
-        <h1 class="">{{.title}}</h1>
+<div 
+  class="container-fluid cover bo-header"
+  style="background-image: url('{{.imageUrl}}')"
+>
+  <div class="sub-container">
+    <div class="col d-flex flex-column justify-center bo-title">
+        <h1 class="text-white">{{.title}}</h1>
         <!-- <p class="lead">Jumbo helper text</p> -->
         <hr class="my-2">
         {{ if .subtitle }}
@@ -10,11 +12,6 @@
           {{.subtitle}}
         </p>
         {{ end }}
-        
-      </div>
-      <div class="col-sm-7 col-md-6 d-flex justify-content-center align-items-center">
-        {{ partial "contact-form" .form }}
-      </div>
     </div>
   </div>
-</div>
+</div> 

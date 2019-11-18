@@ -1,10 +1,13 @@
 <section class="container" id="about">
     <div class="row">
-        <div class="col-sm-8 offset-sm-2">
-            <img src="{{ .Params.blurb.imageURL }}" alt="Bogital logo" class=" offset-xs-2 offset-sm-3 col-xs-8 col-sm-6 mb-4">
-            <p>
-                {{ .Params.blurb.text }}
+        <div class="col-sm-6 d-flex flex-column justify-center">
+            <img src="{{ .imageURL }}" alt="Bogital logo" class=" offset-xs-2 offset-sm-3 col-xs-8 col-sm-6">
+            <p class="m-2">
+                {{ .text }}
             </p>
+        </div>
+        <div class="col-sm-6">
+            {{ partial "contact-form" .form }}
         </div>
     </div>
 </section>
