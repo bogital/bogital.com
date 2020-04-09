@@ -105,14 +105,14 @@ faq:
   description: The duration of a website design or application development depends
     on the complexity of the project. In general, if you have a deadline, we will
     work hard to complete before that.
+- title: What if I don't love the design?
+  description: At Bogital, a project is completed only when the client is satisfied.
+    If you don't love our web design prototype, we will work with you to improve the
+    design until satisfaction.
 - title: How to update my website?
   description: We provide a personalised content manager for all the web sites we
     develop at Bogital Cameroon.  This content manager provides a simple interface
     to update the content of your website.  In addition, we build Wordpress websites
     which are very easy to customise.
-- title: What if I don't love the design?
-  description: At Bogital, a project is completed only when the client is satisfied.
-    If you don't love our web design prototype, we will work with you to improve the
-    design until satisfaction.
 
 ---
